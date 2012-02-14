@@ -15,12 +15,16 @@
 		457FF00514E9F5D8004059B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 457FF00414E9F5D8004059B3 /* AppDelegate.m */; };
 		457FF00814E9F5D8004059B3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 457FF00614E9F5D8004059B3 /* MainStoryboard_iPhone.storyboard */; };
 		457FF00B14E9F5D8004059B3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 457FF00914E9F5D8004059B3 /* MainStoryboard_iPad.storyboard */; };
-		457FF00E14E9F5D8004059B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457FF00D14E9F5D8004059B3 /* ViewController.m */; };
 		457FF01614E9F5D8004059B3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457FF01514E9F5D8004059B3 /* SenTestingKit.framework */; };
 		457FF01714E9F5D8004059B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457FEFF414E9F5D8004059B3 /* UIKit.framework */; };
 		457FF01814E9F5D9004059B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457FEFF614E9F5D8004059B3 /* Foundation.framework */; };
 		457FF02014E9F5D9004059B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 457FF01E14E9F5D9004059B3 /* InfoPlist.strings */; };
 		457FF02314E9F5D9004059B3 /* GoogleCalenderReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 457FF02214E9F5D9004059B3 /* GoogleCalenderReaderTests.m */; };
+		457FF03B14E9F669004059B3 /* CalendarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457FF03A14E9F669004059B3 /* CalendarTableViewController.m */; };
+		457FF03E14E9F6A6004059B3 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457FF03D14E9F6A6004059B3 /* EventKit.framework */; };
+		457FF04714E9F7C3004059B3 /* GoogCal.m in Sources */ = {isa = PBXBuildFile; fileRef = 457FF04614E9F7C3004059B3 /* GoogCal.m */; };
+		457FF07014E9F896004059B3 /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 457FF06F14E9F896004059B3 /* ISO8601DateFormatter.m */; };
+		458060D114EADF4D004F1E28 /* 4848_calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 458060D014EADF4D004F1E28 /* 4848_calendar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +42,29 @@
 		457FEFF414E9F5D8004059B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		457FEFF614E9F5D8004059B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		457FEFF814E9F5D8004059B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		457FEFFC14E9F5D8004059B3 /* GoogleCalenderReader-Info.plist */ = {isa = PBXFileReference; path = "GoogleCalenderReader-Info.plist"; sourceTree = "<group>"; };
+		457FEFFC14E9F5D8004059B3 /* GoogleCalenderReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleCalenderReader-Info.plist"; sourceTree = "<group>"; };
 		457FEFFE14E9F5D8004059B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		457FF00014E9F5D8004059B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		457FF00214E9F5D8004059B3 /* GoogleCalenderReader-Prefix.pch */ = {isa = PBXFileReference; path = "GoogleCalenderReader-Prefix.pch"; sourceTree = "<group>"; };
-		457FF00314E9F5D8004059B3 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		457FF00214E9F5D8004059B3 /* GoogleCalenderReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoogleCalenderReader-Prefix.pch"; sourceTree = "<group>"; };
+		457FF00314E9F5D8004059B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		457FF00414E9F5D8004059B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		457FF00714E9F5D8004059B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		457FF00A14E9F5D8004059B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		457FF00C14E9F5D8004059B3 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		457FF00D14E9F5D8004059B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		457FF01414E9F5D8004059B3 /* GoogleCalenderReaderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleCalenderReaderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		457FF01514E9F5D8004059B3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		457FF01D14E9F5D9004059B3 /* GoogleCalenderReaderTests-Info.plist */ = {isa = PBXFileReference; path = "GoogleCalenderReaderTests-Info.plist"; sourceTree = "<group>"; };
+		457FF01D14E9F5D9004059B3 /* GoogleCalenderReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleCalenderReaderTests-Info.plist"; sourceTree = "<group>"; };
 		457FF01F14E9F5D9004059B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		457FF02114E9F5D9004059B3 /* GoogleCalenderReaderTests.h */ = {isa = PBXFileReference; path = GoogleCalenderReaderTests.h; sourceTree = "<group>"; };
+		457FF02114E9F5D9004059B3 /* GoogleCalenderReaderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleCalenderReaderTests.h; sourceTree = "<group>"; };
 		457FF02214E9F5D9004059B3 /* GoogleCalenderReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleCalenderReaderTests.m; sourceTree = "<group>"; };
+		457FF03914E9F669004059B3 /* CalendarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarTableViewController.h; sourceTree = "<group>"; };
+		457FF03A14E9F669004059B3 /* CalendarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarTableViewController.m; sourceTree = "<group>"; };
+		457FF03D14E9F6A6004059B3 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		457FF04514E9F7C3004059B3 /* GoogCal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogCal.h; sourceTree = "<group>"; };
+		457FF04614E9F7C3004059B3 /* GoogCal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogCal.m; sourceTree = "<group>"; };
+		457FF06E14E9F896004059B3 /* ISO8601DateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISO8601DateFormatter.h; sourceTree = "<group>"; };
+		457FF06F14E9F896004059B3 /* ISO8601DateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISO8601DateFormatter.m; sourceTree = "<group>"; };
+		458060CE14E9F920004F1E28 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CFNetwork.framework; sourceTree = "<group>"; };
+		458060D014EADF4D004F1E28 /* 4848_calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4848_calendar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				457FF03E14E9F6A6004059B3 /* EventKit.framework in Frameworks */,
 				457FEFF514E9F5D8004059B3 /* UIKit.framework in Frameworks */,
 				457FEFF714E9F5D8004059B3 /* Foundation.framework in Frameworks */,
 				457FEFF914E9F5D8004059B3 /* CoreGraphics.framework in Frameworks */,
@@ -102,6 +114,8 @@
 		457FEFF314E9F5D8004059B3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				458060CE14E9F920004F1E28 /* CFNetwork.framework */,
+				457FF03D14E9F6A6004059B3 /* EventKit.framework */,
 				457FEFF414E9F5D8004059B3 /* UIKit.framework */,
 				457FEFF614E9F5D8004059B3 /* Foundation.framework */,
 				457FEFF814E9F5D8004059B3 /* CoreGraphics.framework */,
@@ -117,8 +131,10 @@
 				457FF00414E9F5D8004059B3 /* AppDelegate.m */,
 				457FF00614E9F5D8004059B3 /* MainStoryboard_iPhone.storyboard */,
 				457FF00914E9F5D8004059B3 /* MainStoryboard_iPad.storyboard */,
-				457FF00C14E9F5D8004059B3 /* ViewController.h */,
-				457FF00D14E9F5D8004059B3 /* ViewController.m */,
+				457FF03914E9F669004059B3 /* CalendarTableViewController.h */,
+				457FF03A14E9F669004059B3 /* CalendarTableViewController.m */,
+				457FF04514E9F7C3004059B3 /* GoogCal.h */,
+				457FF04614E9F7C3004059B3 /* GoogCal.m */,
 				457FEFFB14E9F5D8004059B3 /* Supporting Files */,
 			);
 			path = GoogleCalenderReader;
@@ -127,6 +143,9 @@
 		457FEFFB14E9F5D8004059B3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				458060D014EADF4D004F1E28 /* 4848_calendar.png */,
+				457FF06E14E9F896004059B3 /* ISO8601DateFormatter.h */,
+				457FF06F14E9F896004059B3 /* ISO8601DateFormatter.m */,
 				457FEFFC14E9F5D8004059B3 /* GoogleCalenderReader-Info.plist */,
 				457FEFFD14E9F5D8004059B3 /* InfoPlist.strings */,
 				457FF00014E9F5D8004059B3 /* main.m */,
@@ -228,6 +247,7 @@
 				457FEFFF14E9F5D8004059B3 /* InfoPlist.strings in Resources */,
 				457FF00814E9F5D8004059B3 /* MainStoryboard_iPhone.storyboard in Resources */,
 				457FF00B14E9F5D8004059B3 /* MainStoryboard_iPad.storyboard in Resources */,
+				458060D114EADF4D004F1E28 /* 4848_calendar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +284,9 @@
 			files = (
 				457FF00114E9F5D8004059B3 /* main.m in Sources */,
 				457FF00514E9F5D8004059B3 /* AppDelegate.m in Sources */,
-				457FF00E14E9F5D8004059B3 /* ViewController.m in Sources */,
+				457FF03B14E9F669004059B3 /* CalendarTableViewController.m in Sources */,
+				457FF04714E9F7C3004059B3 /* GoogCal.m in Sources */,
+				457FF07014E9F896004059B3 /* ISO8601DateFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +392,10 @@
 		457FF02714E9F5D9004059B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GoogleCalenderReader/GoogleCalenderReader-Prefix.pch";
 				INFOPLIST_FILE = "GoogleCalenderReader/GoogleCalenderReader-Info.plist";
@@ -381,6 +407,10 @@
 		457FF02814E9F5D9004059B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GoogleCalenderReader/GoogleCalenderReader-Prefix.pch";
 				INFOPLIST_FILE = "GoogleCalenderReader/GoogleCalenderReader-Info.plist";
@@ -442,6 +472,7 @@
 				457FF02814E9F5D9004059B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		457FF02914E9F5D9004059B3 /* Build configuration list for PBXNativeTarget "GoogleCalenderReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +481,7 @@
 				457FF02B14E9F5D9004059B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
