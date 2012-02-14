@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		457FEFF514E9F5D8004059B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457FEFF414E9F5D8004059B3 /* UIKit.framework */; };
+		457FEFF714E9F5D8004059B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457FEFF614E9F5D8004059B3 /* Foundation.framework */; };
+		457FEFF914E9F5D8004059B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457FEFF814E9F5D8004059B3 /* CoreGraphics.framework */; };
+		457FEFFF14E9F5D8004059B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 457FEFFD14E9F5D8004059B3 /* InfoPlist.strings */; };
+		457FF00114E9F5D8004059B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 457FF00014E9F5D8004059B3 /* main.m */; };
+		457FF00514E9F5D8004059B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 457FF00414E9F5D8004059B3 /* AppDelegate.m */; };
+		457FF00814E9F5D8004059B3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 457FF00614E9F5D8004059B3 /* MainStoryboard_iPhone.storyboard */; };
+		457FF00B14E9F5D8004059B3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 457FF00914E9F5D8004059B3 /* MainStoryboard_iPad.storyboard */; };
+		457FF00E14E9F5D8004059B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457FF00D14E9F5D8004059B3 /* ViewController.m */; };
+		457FF01614E9F5D8004059B3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457FF01514E9F5D8004059B3 /* SenTestingKit.framework */; };
+		457FF01714E9F5D8004059B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457FEFF414E9F5D8004059B3 /* UIKit.framework */; };
+		457FF01814E9F5D9004059B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457FEFF614E9F5D8004059B3 /* Foundation.framework */; };
+		457FF02014E9F5D9004059B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 457FF01E14E9F5D9004059B3 /* InfoPlist.strings */; };
+		457FF02314E9F5D9004059B3 /* GoogleCalenderReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 457FF02214E9F5D9004059B3 /* GoogleCalenderReaderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		457FF01914E9F5D9004059B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 457FEFE714E9F5D8004059B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 457FEFEF14E9F5D8004059B3;
+			remoteInfo = GoogleCalenderReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		457FEFF014E9F5D8004059B3 /* GoogleCalenderReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleCalenderReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		457FEFF414E9F5D8004059B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		457FEFF614E9F5D8004059B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		457FEFF814E9F5D8004059B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		457FEFFC14E9F5D8004059B3 /* GoogleCalenderReader-Info.plist */ = {isa = PBXFileReference; path = "GoogleCalenderReader-Info.plist"; sourceTree = "<group>"; };
+		457FEFFE14E9F5D8004059B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		457FF00014E9F5D8004059B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		457FF00214E9F5D8004059B3 /* GoogleCalenderReader-Prefix.pch */ = {isa = PBXFileReference; path = "GoogleCalenderReader-Prefix.pch"; sourceTree = "<group>"; };
+		457FF00314E9F5D8004059B3 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		457FF00414E9F5D8004059B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		457FF00714E9F5D8004059B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		457FF00A14E9F5D8004059B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		457FF00C14E9F5D8004059B3 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		457FF00D14E9F5D8004059B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		457FF01414E9F5D8004059B3 /* GoogleCalenderReaderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleCalenderReaderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		457FF01514E9F5D8004059B3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		457FF01D14E9F5D9004059B3 /* GoogleCalenderReaderTests-Info.plist */ = {isa = PBXFileReference; path = "GoogleCalenderReaderTests-Info.plist"; sourceTree = "<group>"; };
+		457FF01F14E9F5D9004059B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		457FF02114E9F5D9004059B3 /* GoogleCalenderReaderTests.h */ = {isa = PBXFileReference; path = GoogleCalenderReaderTests.h; sourceTree = "<group>"; };
+		457FF02214E9F5D9004059B3 /* GoogleCalenderReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleCalenderReaderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		457FEFED14E9F5D8004059B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457FEFF514E9F5D8004059B3 /* UIKit.framework in Frameworks */,
+				457FEFF714E9F5D8004059B3 /* Foundation.framework in Frameworks */,
+				457FEFF914E9F5D8004059B3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457FF01014E9F5D8004059B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457FF01614E9F5D8004059B3 /* SenTestingKit.framework in Frameworks */,
+				457FF01714E9F5D8004059B3 /* UIKit.framework in Frameworks */,
+				457FF01814E9F5D9004059B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		457FEFE514E9F5D8004059B3 = {
+			isa = PBXGroup;
+			children = (
+				457FEFFA14E9F5D8004059B3 /* GoogleCalenderReader */,
+				457FF01B14E9F5D9004059B3 /* GoogleCalenderReaderTests */,
+				457FEFF314E9F5D8004059B3 /* Frameworks */,
+				457FEFF114E9F5D8004059B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		457FEFF114E9F5D8004059B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				457FEFF014E9F5D8004059B3 /* GoogleCalenderReader.app */,
+				457FF01414E9F5D8004059B3 /* GoogleCalenderReaderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		457FEFF314E9F5D8004059B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				457FEFF414E9F5D8004059B3 /* UIKit.framework */,
+				457FEFF614E9F5D8004059B3 /* Foundation.framework */,
+				457FEFF814E9F5D8004059B3 /* CoreGraphics.framework */,
+				457FF01514E9F5D8004059B3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		457FEFFA14E9F5D8004059B3 /* GoogleCalenderReader */ = {
+			isa = PBXGroup;
+			children = (
+				457FF00314E9F5D8004059B3 /* AppDelegate.h */,
+				457FF00414E9F5D8004059B3 /* AppDelegate.m */,
+				457FF00614E9F5D8004059B3 /* MainStoryboard_iPhone.storyboard */,
+				457FF00914E9F5D8004059B3 /* MainStoryboard_iPad.storyboard */,
+				457FF00C14E9F5D8004059B3 /* ViewController.h */,
+				457FF00D14E9F5D8004059B3 /* ViewController.m */,
+				457FEFFB14E9F5D8004059B3 /* Supporting Files */,
+			);
+			path = GoogleCalenderReader;
+			sourceTree = "<group>";
+		};
+		457FEFFB14E9F5D8004059B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				457FEFFC14E9F5D8004059B3 /* GoogleCalenderReader-Info.plist */,
+				457FEFFD14E9F5D8004059B3 /* InfoPlist.strings */,
+				457FF00014E9F5D8004059B3 /* main.m */,
+				457FF00214E9F5D8004059B3 /* GoogleCalenderReader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		457FF01B14E9F5D9004059B3 /* GoogleCalenderReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				457FF02114E9F5D9004059B3 /* GoogleCalenderReaderTests.h */,
+				457FF02214E9F5D9004059B3 /* GoogleCalenderReaderTests.m */,
+				457FF01C14E9F5D9004059B3 /* Supporting Files */,
+			);
+			path = GoogleCalenderReaderTests;
+			sourceTree = "<group>";
+		};
+		457FF01C14E9F5D9004059B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				457FF01D14E9F5D9004059B3 /* GoogleCalenderReaderTests-Info.plist */,
+				457FF01E14E9F5D9004059B3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		457FEFEF14E9F5D8004059B3 /* GoogleCalenderReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457FF02614E9F5D9004059B3 /* Build configuration list for PBXNativeTarget "GoogleCalenderReader" */;
+			buildPhases = (
+				457FEFEC14E9F5D8004059B3 /* Sources */,
+				457FEFED14E9F5D8004059B3 /* Frameworks */,
+				457FEFEE14E9F5D8004059B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleCalenderReader;
+			productName = GoogleCalenderReader;
+			productReference = 457FEFF014E9F5D8004059B3 /* GoogleCalenderReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		457FF01314E9F5D8004059B3 /* GoogleCalenderReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457FF02914E9F5D9004059B3 /* Build configuration list for PBXNativeTarget "GoogleCalenderReaderTests" */;
+			buildPhases = (
+				457FF00F14E9F5D8004059B3 /* Sources */,
+				457FF01014E9F5D8004059B3 /* Frameworks */,
+				457FF01114E9F5D8004059B3 /* Resources */,
+				457FF01214E9F5D8004059B3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				457FF01A14E9F5D9004059B3 /* PBXTargetDependency */,
+			);
+			name = GoogleCalenderReaderTests;
+			productName = GoogleCalenderReaderTests;
+			productReference = 457FF01414E9F5D8004059B3 /* GoogleCalenderReaderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		457FEFE714E9F5D8004059B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = none;
+			};
+			buildConfigurationList = 457FEFEA14E9F5D8004059B3 /* Build configuration list for PBXProject "GoogleCalenderReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 457FEFE514E9F5D8004059B3;
+			productRefGroup = 457FEFF114E9F5D8004059B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				457FEFEF14E9F5D8004059B3 /* GoogleCalenderReader */,
+				457FF01314E9F5D8004059B3 /* GoogleCalenderReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		457FEFEE14E9F5D8004059B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457FEFFF14E9F5D8004059B3 /* InfoPlist.strings in Resources */,
+				457FF00814E9F5D8004059B3 /* MainStoryboard_iPhone.storyboard in Resources */,
+				457FF00B14E9F5D8004059B3 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457FF01114E9F5D8004059B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457FF02014E9F5D9004059B3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		457FF01214E9F5D8004059B3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		457FEFEC14E9F5D8004059B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457FF00114E9F5D8004059B3 /* main.m in Sources */,
+				457FF00514E9F5D8004059B3 /* AppDelegate.m in Sources */,
+				457FF00E14E9F5D8004059B3 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457FF00F14E9F5D8004059B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457FF02314E9F5D9004059B3 /* GoogleCalenderReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		457FF01A14E9F5D9004059B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 457FEFEF14E9F5D8004059B3 /* GoogleCalenderReader */;
+			targetProxy = 457FF01914E9F5D9004059B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		457FEFFD14E9F5D8004059B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				457FEFFE14E9F5D8004059B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		457FF00614E9F5D8004059B3 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				457FF00714E9F5D8004059B3 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		457FF00914E9F5D8004059B3 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				457FF00A14E9F5D8004059B3 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		457FF01E14E9F5D9004059B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				457FF01F14E9F5D9004059B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		457FF02414E9F5D9004059B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		457FF02514E9F5D9004059B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		457FF02714E9F5D9004059B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleCalenderReader/GoogleCalenderReader-Prefix.pch";
+				INFOPLIST_FILE = "GoogleCalenderReader/GoogleCalenderReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		457FF02814E9F5D9004059B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleCalenderReader/GoogleCalenderReader-Prefix.pch";
+				INFOPLIST_FILE = "GoogleCalenderReader/GoogleCalenderReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		457FF02A14E9F5D9004059B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoogleCalenderReader.app/GoogleCalenderReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleCalenderReader/GoogleCalenderReader-Prefix.pch";
+				INFOPLIST_FILE = "GoogleCalenderReaderTests/GoogleCalenderReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		457FF02B14E9F5D9004059B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoogleCalenderReader.app/GoogleCalenderReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleCalenderReader/GoogleCalenderReader-Prefix.pch";
+				INFOPLIST_FILE = "GoogleCalenderReaderTests/GoogleCalenderReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		457FEFEA14E9F5D8004059B3 /* Build configuration list for PBXProject "GoogleCalenderReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457FF02414E9F5D9004059B3 /* Debug */,
+				457FF02514E9F5D9004059B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		457FF02614E9F5D9004059B3 /* Build configuration list for PBXNativeTarget "GoogleCalenderReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457FF02714E9F5D9004059B3 /* Debug */,
+				457FF02814E9F5D9004059B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		457FF02914E9F5D9004059B3 /* Build configuration list for PBXNativeTarget "GoogleCalenderReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457FF02A14E9F5D9004059B3 /* Debug */,
+				457FF02B14E9F5D9004059B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 457FEFE714E9F5D8004059B3 /* Project object */;
+}
